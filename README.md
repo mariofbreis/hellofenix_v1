@@ -1,8 +1,7 @@
 
    H E L L O F E N I X
 
-   Introduction to the fenix framework
-
+   Application exemple for Software Engeneering project
 
    1) create database:
 
@@ -22,12 +21,6 @@
 
       $ mvn package
 
-   3) execute: add names and fetch the saved data
-
-      $ mvn exec:java -Dexec.args="Pedro Mateus Tiago Maria"
-
-      $ mvn exec:java
-
-   4) execute: remove and add names
-
-      $ mvn exec:java -Dexec.args="-Mateus -Maria +Joaquim +Teresa"
+   3) execute: 
+   
+      $ mvn clean package exec:java
